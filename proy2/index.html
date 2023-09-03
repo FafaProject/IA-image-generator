@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="tilos.css">
+    <title>Generador cuentas de minecraft premium</title>
+</head>
+<body>
+ 
+    <div class="container">
+        <h1>Generador de Imagenes ia</h1>
+        <p>Escribe la descripcion de la imagen que desee
+            generar y sus caracteristicas separados por "," y se le daran 4 resultados
+            (ej: Un pajaro en su habitat, alta definicion, sombras detalladas)
+            
+            *USAR INGLES PARA MAYOR PRECISION*
+        </p>
+        <form class="form-Generador">
+            <input type="text" id="user-prompt" placeholder="Describa su imagen aqui..." autocomplete="off">
+            <button type="button" id="generar">Generar</button>
+        </form>
+
+    <div class="resultado">
+        <div id="cargando">Generando...</div>
+        <div id="img-grid"></div>
+    </div>
+
+    </div>
+    <script src="js.js"></script>   
+</body>
+</html>
